@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&S BRIDGE Consulting | Seguridad, salud e innovación</title><meta name="description" content="Conectamos personas, seguridad, salud y productividad. Consultoría en riesgos críticos, ICAM, capacitación, auditorías, salud ocupacional e innovación para Chile y Latinoamérica.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            800: '#0B132B',
+                            900: '#070A13',
+                            950: '#030509',
+                        },
+                        brand: {
+                            gold: '#FF8A24',
+                            cyan: '#56E887',
+                            blue: '#0066FF',
+                            blueHover: '#0052CC',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-nav {
+            background: rgba(7, 10, 19, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #FFFFFF 0%, #A5C0EE 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-accent {
+            background: linear-gradient(135deg, #1E64FA 0%, #00F0FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background: radial-gradient(circle at 50% 20%, rgba(30, 100, 250, 0.15) 0%, rgba(7, 10, 19, 1) 70%);
+        }
+    </style>
+<link rel="stylesheet" href="motion.css"></head>
+<body class="bg-navy-900 text-slate-200 font-sans antialiased selection:bg-brand-blue selection:text-white">
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300" id="navbar"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex items-center justify-between h-20"><a href="#inicio" aria-label="H&S BRIDGE, inicio"><img class="brand-logo" src="assets/logo.png" alt="H&S BRIDGE — Health And Safety Risk Management"></a><nav class="hidden md:flex items-center gap-6 text-sm font-medium" aria-label="Navegación principal"><a href="servicios.html">Servicios</a><a href="organizacion.html">Nosotros</a><a href="#capacitacion">Capacitación</a><a href="#contacto">Contacto</a></nav><div class="flex items-center gap-4"><a href="#contacto" class="hidden sm:inline-flex px-5 py-2.5 rounded-full text-sm font-semibold bg-brand-blue">Conversemos</a><button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Abrir menú"><i class="fa-solid fa-bars text-2xl" aria-hidden="true"></i></button></div></div></div><nav id="mobile-menu" aria-label="Navegación móvil" class="hidden md:hidden border-t border-slate-800 bg-navy-950 px-6 py-5 space-y-4"><a class="block" href="servicios.html">Servicios</a><a class="block" href="organizacion.html">Nosotros</a><a class="block" href="#capacitacion">Capacitación</a><a class="block" href="#contacto">Contacto</a></nav></header>
+
+    <!-- SECCIÓN HERO -->
+    <section id="inicio" class="relative pt-32 pb-20 md:pt-44 md:pb-24 hero-bg overflow-hidden"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"><div class="text-center max-w-3xl mx-auto"><div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-card text-brand-cyan text-xs font-semibold uppercase tracking-wider mb-8"><span class="w-2 h-2 rounded-full bg-brand-cyan animate-pulse"></span>Building Safer Workplaces</div><h1 class="text-white font-extrabold mb-6">Donde la gestión preventiva se convierte en <span class="gradient-accent">valor organizacional.</span></h1><p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-10">Conectamos personas, seguridad, salud y productividad con soluciones integrales adaptadas a las necesidades de cada organización.</p><div class="flex flex-col sm:flex-row items-center justify-center gap-4"><a href="servicios.html" class="px-8 py-4 rounded-xl font-bold bg-gradient-to-r from-brand-blue to-blue-600 hover:-translate-y-1 transition-all">Explorar servicios <span aria-hidden="true">↗</span></a><a href="organizacion.html" class="px-8 py-4 rounded-xl glass-card hover:bg-white/10 transition-all">Conoce nuestra organización</a></div></div><div class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto"><div class="glass-card p-6 rounded-2xl text-center"><span class="text-brand-cyan text-xs uppercase tracking-widest">Personas</span><p class="text-lg font-semibold mt-2">Capacidades y cultura</p></div><div class="glass-card p-6 rounded-2xl text-center"><span class="text-brand-cyan text-xs uppercase tracking-widest">Seguridad y salud</span><p class="text-lg font-semibold mt-2">Prevención integral</p></div><div class="glass-card p-6 rounded-2xl text-center"><span class="text-brand-cyan text-xs uppercase tracking-widest">Productividad</span><p class="text-lg font-semibold mt-2">Procesos y resultados</p></div></div></div></section>
+
+    <!-- SECCIÓN SERVICIOS -->
+    
+
+    <!-- SECCIÓN SOBRE NOSOTROS -->
+    
+
+    <!-- SECCIÓN TESTIMONIOS -->
+    
+
+    <!-- SECCIÓN CONTACTO Y AGENDAMIENTO -->
+    <section id="metodologia" class="method-section"><div class="method-inner"><span class="section-label">Auditorías y diagnósticos · Mejora continua</span><h2>Medir, comparar y mejorar.</h2><p class="method-intro">El control efectivo comienza con un diagnóstico preciso. Un ciclo de evaluación y seguimiento para conectar los hallazgos con acciones concretas.</p><div class="method-grid"><article class="method-card"><span class="method-number">01</span><h3>Diagnóstico</h3><p>Línea base y evaluación inicial de la organización.</p></article><article class="method-card"><span class="method-number">02</span><h3>Auditoría</h3><p>Análisis técnico detallado de las áreas de evaluación.</p></article><article class="method-card"><span class="method-number">03</span><h3>Reporte</h3><p>Resultados y acciones correctivas para orientar la mejora.</p></article><article class="method-card"><span class="method-number">04</span><h3>Mejora</h3><p>Seguimiento de indicadores y del avance de las acciones.</p></article></div></div></section><section id="capacitacion" class="py-24 bg-navy-800/30"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center max-w-3xl mx-auto mb-14"><p class="section-label">Capacitación y entrenamiento</p><h2 class="text-3xl sm:text-4xl font-bold text-white mt-3">Equipos capaces de prevenir, aprender y liderar.</h2><p class="text-slate-400 mt-5">Programas de seguridad, salud ocupacional y formación metodológica, con formatos adaptados a cada organización.</p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-8"><article class="glass-card rounded-2xl p-8"><h3 class="text-xl font-bold mb-4">Seguridad</h3><p class="text-slate-400 text-sm mb-6">Competencias para una gestión preventiva sólida.</p><ul class="training-list"><li>Investigación de incidentes ICAM</li><li>Diagramas Bow Tie</li><li>Gestión de riesgos críticos</li><li>Liderazgo en seguridad</li></ul></article><article class="glass-card rounded-2xl p-8"><h3 class="text-xl font-bold mb-4">Salud ocupacional</h3><p class="text-slate-400 text-sm mb-6">Una mirada integral al bienestar laboral.</p><ul class="training-list"><li>Protocolos ministeriales y programas de salud</li><li>Factores psicosociales y bienestar laboral</li><li>Riesgos críticos de salud</li><li>Ergonomía, fatiga y somnolencia</li></ul></article><article class="glass-card rounded-2xl p-8"><h3 class="text-xl font-bold mb-4">Formación metodológica</h3><p class="text-slate-400 text-sm mb-6">Desarrollo de capacidades para investigar y aprender.</p><ul class="training-list"><li>Formación y acreditación de asesores metodológicos ICAM</li><li>Programa de 3 días</li><li>Contenidos alineados con los objetivos de la organización</li></ul></article></div><div class="training-formats"><span>Presencial</span><span>Online</span><span>Asincrónico</span><span>Personalizado</span></div></div></section><section id="compromiso" class="commitment-section"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><p class="section-label">Nuestro compromiso</p><h2 class="text-3xl sm:text-4xl font-bold mt-4 mb-10">Building Safer Workplaces.</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-8"><article><h3>Protección integral</h3><p>Integramos las miradas estratégica, operativa y humana para prevenir incidentes de alto potencial.</p></article><article><h3>Innovación continua</h3><p>Colaboramos con empresas tecnológicas para evaluar, validar e implementar soluciones de gestión preventiva.</p></article><article><h3>Fortalecimiento de capacidades</h3><p>Capacitamos a equipos técnicos y líderes para fortalecer las competencias de las organizaciones.</p></article><article><h3>Mejora sostenida</h3><p>Acompañamos procesos de auditoría y diagnóstico para el control efectivo de los riesgos.</p></article></div></div></section><section id="contacto" class="py-24 relative"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-12 gap-12"><div class="lg:col-span-5"><p class="section-label">Conversemos</p><h2 class="text-3xl sm:text-4xl font-bold text-white my-6">Construyamos una gestión preventiva con valor.</h2><p class="text-slate-400 mb-8">Consultoría especializada en Chile y Latinoamérica. Cuéntanos los desafíos de tu organización a través de nuestros canales de contacto.</p><div class="contact-links"><a href="mailto:cgutierrez@hsbridge.cl"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span><small>Correo electrónico</small>cgutierrez@hsbridge.cl</span></a><a href="https://wa.me/56975897639" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span><small>WhatsApp</small>+56 9 7589 7639</span><span aria-hidden="true">↗</span></a><a href="https://wa.me/56968490425" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span><small>WhatsApp</small>+56 9 6849 0425</span><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/cristian-gutierrez-alvarez" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span><small>LinkedIn</small>Cristian Gutiérrez Alvarez</span><span aria-hidden="true">↗</span></a></div><p class="text-sm text-slate-400 mt-8">Chile · Consultoría para Latinoamérica</p></div><div class="lg:col-span-7"><div class="glass-card p-8 sm:p-10 rounded-3xl"><h3 class="text-xl font-bold mb-5">Cuéntanos tu desafío</h3><p class="demo-form-note">Vista previa: este formulario es demostrativo y no envía ni guarda información. Para contactar a H&S BRIDGE, utiliza el correo o WhatsApp de esta sección.</p><form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-5"><div><label class="block text-sm mb-2">Nombre completo *</label><input type="text" required maxlength="150" placeholder="Ej. Ana Gómez" class="w-full px-4 py-3 rounded-xl bg-navy-900 border border-slate-700 text-sm"></div><div><label class="block text-sm mb-2">Correo electrónico *</label><input type="email" required maxlength="150" placeholder="ana@ejemplo.com" class="w-full px-4 py-3 rounded-xl bg-navy-900 border border-slate-700 text-sm"></div><div><label class="block text-sm mb-2">Organización</label><input type="text"  maxlength="150" placeholder="Nombre de tu organización" class="w-full px-4 py-3 rounded-xl bg-navy-900 border border-slate-700 text-sm"></div><div><label class="block text-sm mb-2">Servicio de interés *</label><select required class="w-full px-4 py-3 rounded-xl bg-navy-900 border border-slate-700 text-sm"><option value="">Selecciona un servicio</option><option>Gestión de Riesgos Críticos</option><option>Investigación de Incidentes</option><option>Capacitación y Entrenamiento</option><option>Auditorías y Diagnósticos</option><option>Asesoría en Salud Ocupacional</option><option>Innovación y Tecnología Aplicada</option></select></div><div><label class="block text-sm mb-2">Mensaje *</label><textarea required maxlength="2000" rows="4" placeholder="¿Qué necesita tu organización?" class="w-full px-4 py-3 rounded-xl bg-navy-900 border border-slate-700 text-sm"></textarea></div><p class="text-xs text-slate-400">* Campos obligatorios. Usa datos de ejemplo.</p><button type="submit" class="w-full py-4 rounded-xl font-bold bg-gradient-to-r from-brand-blue to-brand-blueHover hover:shadow-lg transition-all">Probar formulario</button></form></div></div></div></div></section>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy-950 border-t border-slate-800 pt-12 pb-10"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex flex-col md:flex-row justify-between gap-8"><a href="#inicio"><img class="footer-logo" src="assets/logo.png" alt="H&S BRIDGE"></a><div><p class="text-white font-semibold">Building Safer Workplaces</p><p class="text-sm text-slate-400 mt-2">Donde la gestión preventiva se convierte<br>en valor organizacional.</p></div><nav class="flex flex-col gap-3 text-sm" aria-label="Enlaces del pie"><a href="servicios.html#servicios">Nuestros servicios</a><a href="#capacitacion">Capacitación</a><a href="#contacto">Contacto</a></nav></div><div class="border-t border-slate-800 mt-10 pt-6 flex flex-wrap justify-between gap-4 text-xs text-slate-500"><p>© 2026 H&S Bridge Consulting.</p><p>Chile · Latinoamérica</p><a href="#inicio">Volver al inicio ↑</a></div></div></footer>
+
+    <!-- MODAL DE CONFIRMACIÓN -->
+    <div id="modal-success" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-navy-950/80 backdrop-blur-md hidden opacity-0 transition-opacity duration-300">
+        <div class="glass-card max-w-md w-full p-8 rounded-3xl text-center border-slate-700 bg-navy-900 shadow-2xl">
+            <div class="w-16 h-16 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl border border-emerald-500/30">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-2">¡Demostración completada!</h3>
+            <p class="text-slate-300 text-sm mb-6">Los campos se validaron correctamente. No se envió ninguna solicitud ni se almacenaron tus datos.</p>
+            <button onclick="closeModal()" class="w-full py-3 rounded-xl bg-brand-blue font-bold text-white hover:bg-brand-blueHover transition-colors text-sm">
+                Entendido
+            </button>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Menu Móvil
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Cerrar menú móvil al hacer click en un enlace
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Manejo del Formulario
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const modal = document.getElementById('modal-success');
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+            }, 10);
+            event.target.reset();
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal-success');
+            modal.classList.add('opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+        }
+
+        // Efecto Navbar al hacer scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 20) {
+                navbar.classList.add('shadow-xl', 'bg-navy-950/90');
+            } else {
+                navbar.classList.remove('shadow-xl', 'bg-navy-950/90');
+            }
+        });
+    </script>
+<script src="motion.js"></script></body>
+</html>

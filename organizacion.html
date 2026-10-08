@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra organización | H&S BRIDGE</title><meta name="description" content="Conectamos personas, seguridad, salud y productividad. Consultoría en riesgos críticos, ICAM, capacitación, auditorías, salud ocupacional e innovación para Chile y Latinoamérica.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            800: '#0B132B',
+                            900: '#070A13',
+                            950: '#030509',
+                        },
+                        brand: {
+                            gold: '#FF8A24',
+                            cyan: '#56E887',
+                            blue: '#0066FF',
+                            blueHover: '#0052CC',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-nav {
+            background: rgba(7, 10, 19, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #FFFFFF 0%, #A5C0EE 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-accent {
+            background: linear-gradient(135deg, #1E64FA 0%, #00F0FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background: radial-gradient(circle at 50% 20%, rgba(30, 100, 250, 0.15) 0%, rgba(7, 10, 19, 1) 70%);
+        }
+    </style>
+<link rel="stylesheet" href="motion.css"></head>
+<body class="interior-page bg-navy-900 text-slate-200 font-sans antialiased"><header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300" id="navbar"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex items-center justify-between h-20"><a href="index.html#inicio" aria-label="H&S BRIDGE, inicio"><img class="brand-logo" src="assets/logo.png" alt="H&S BRIDGE — Health And Safety Risk Management"></a><nav class="hidden md:flex items-center gap-6 text-sm font-medium" aria-label="Navegación principal"><a href="servicios.html">Servicios</a><a href="organizacion.html">Nosotros</a><a href="index.html#capacitacion">Capacitación</a><a href="index.html#contacto">Contacto</a></nav><div class="flex items-center gap-4"><a href="index.html#contacto" class="hidden sm:inline-flex px-5 py-2.5 rounded-full text-sm font-semibold bg-brand-blue">Conversemos</a><button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Abrir menú"><i class="fa-solid fa-bars text-2xl" aria-hidden="true"></i></button></div></div></div><nav id="mobile-menu" aria-label="Navegación móvil" class="hidden md:hidden border-t border-slate-800 bg-navy-950 px-6 py-5 space-y-4"><a class="block" href="servicios.html">Servicios</a><a class="block" href="organizacion.html">Nosotros</a><a class="block" href="index.html#capacitacion">Capacitación</a><a class="block" href="index.html#contacto">Contacto</a></nav></header><main><section class="interior-hero"><div class="interior-inner"><nav class="breadcrumb" aria-label="Ruta de navegación"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><span aria-current="page">Nuestra organización</span></nav><span class="section-label">H&S Bridge Consulting</span><h1>Un puente entre las personas, la prevención y la productividad.</h1><p>Conoce a H&S Bridge Consulting: nuestra misión, el enfoque que guía nuestros servicios y nuestro compromiso con culturas organizacionales sostenibles.</p></div></section><section id="nosotros" class="py-24 relative overflow-hidden"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"><div><p class="section-label">Quiénes somos</p><h2 class="text-3xl sm:text-4xl font-bold text-white my-6">Unimos la gestión técnica con el factor humano.</h2><p class="text-slate-300 leading-relaxed mb-6">En H&S Bridge Consulting creemos que la seguridad y la salud ocupacional son pilares para construir culturas organizacionales sostenibles.</p><p class="text-slate-400 leading-relaxed mb-8">Nuestra misión es desarrollar soluciones integrales en seguridad, salud ocupacional e innovación, adaptadas a las necesidades de cada organización.</p><blockquote class="bridge-quote">“Somos un puente entre la gestión técnica, la tecnología y las personas.”</blockquote></div><div class="glass-card rounded-3xl p-8 sm:p-10"><img class="about-logo" src="assets/logo.png" alt="H&S BRIDGE"><div class="bridge-values"><div><span>01</span><h3>Personas</h3><p>Fortalecemos capacidades y construimos culturas organizacionales sostenibles.</p></div><div><span>02</span><h3>Seguridad y salud</h3><p>Prevenimos incidentes y enfermedades profesionales mediante gestión técnica y enfoques innovadores.</p></div><div><span>03</span><h3>Productividad</h3><p>Optimizamos procesos y resultados mediante soluciones efectivas.</p></div></div></div></div></div></section><section class="interior-cta"><div><h2>Conectemos con tu próximo desafío.</h2><p>Conversemos sobre las necesidades de tu organización.</p></div><a class="interior-button" href="index.html#contacto">Contactar a H&S BRIDGE ↗</a></section></main><footer class="bg-navy-950 border-t border-slate-800 pt-12 pb-10"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex flex-col md:flex-row justify-between gap-8"><a href="index.html#inicio"><img class="footer-logo" src="assets/logo.png" alt="H&S BRIDGE"></a><div><p class="text-white font-semibold">Building Safer Workplaces</p><p class="text-sm text-slate-400 mt-2">Donde la gestión preventiva se convierte<br>en valor organizacional.</p></div><nav class="flex flex-col gap-3 text-sm" aria-label="Enlaces del pie"><a href="servicios.html#servicios">Nuestros servicios</a><a href="index.html#capacitacion">Capacitación</a><a href="index.html#contacto">Contacto</a></nav></div><div class="border-t border-slate-800 mt-10 pt-6 flex flex-wrap justify-between gap-4 text-xs text-slate-500"><p>© 2026 H&S Bridge Consulting.</p><p>Chile · Latinoamérica</p><a href="index.html#inicio">Volver al inicio ↑</a></div></div></footer><script src="interior.js"></script></body></html>
